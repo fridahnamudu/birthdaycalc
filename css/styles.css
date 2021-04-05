@@ -1,0 +1,55 @@
+h1{
+    font-size: 60px;
+    font-style:italic ;
+    font-weight: bolder;
+    color: brown;
+    text-align: center;
+}
+h2{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:brown;
+}
+p{
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    color:white;
+
+}
+form{
+    text-align: center;
+
+}
+body {
+    background-image: url("/images.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+  li{
+      color: wheat;
+  }
+  ul{
+      color: wheat;
+  }
+  .female{
+      text-align: end;
+  }
+  img{
+      max-width: 300px;
+
+      
+  }
+.column{
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+.row::after{
+    content:"";
+    clear: both;
+    display: table;
+}
