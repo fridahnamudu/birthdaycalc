@@ -45,11 +45,20 @@ body {
   }
 .column{
     float: left;
-    width: 50%;
-    padding: 5px;
+    width: 33.33%;
+    padding: 100px;
 }
 .row::after{
     content:"";
     clear: both;
     display: table;
+}
+.name{
+    text-align: center;
+    color: wheat;
+}
+audio{
+    color: brown;
+    text-align: center;
+
 }

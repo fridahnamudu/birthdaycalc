@@ -39,8 +39,8 @@ var female  = ["akosua", "Adwoa", "Abenaa", "akua", "yaa", "afua", "ama"]
 
 //function to get the akan names
 function getName(){
-	var ismale = document.getElementById('male').checked;
-	var isfemale = document.getElementById('female').checked;
+	var ismale = document.getElementById("male").checked;
+	var isfemale = document.getElementById("female").checked;
 	if(ismale == true && isfemale == false) {
 		if (day == 0) {
 			alert("Your Akan Name is" + male[0]);
@@ -86,3 +86,4 @@ function getName(){
 		alert("Your AKAN NAME is" + female[6]);
 		}
 	}
+
